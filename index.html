@@ -3,7 +3,25 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title> Welcome to Rongfei Zeng's Homepage</title>
-    <link rel="stylesheet" href="css/main.css" type="text/css"></head>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    
+    <!-- 图片轮播 -->
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" /> 
+    <script src="js/lightslider.js"></script>
+    <!--图片轮播-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#lightSlider").lightSlider({
+                item: 2,
+			    slideMove: 1,
+				speed: 800,
+				auto: true,
+				loop: true,
+				pauseOnHover: true,
+			}); 
+		 });
+	</script>
+</head>
 <body>
 <div class="container">
     <img src="img/logo.jpg" width="100%">
