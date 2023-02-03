@@ -50,7 +50,8 @@ a:hover{
 }
 .container table{
     width: 99%;
-    background-color: #e0e5df;
+    /*background-color: #e0e5df;*/
+    background-color: #EEEEEE;
     margin-top: 0px;
     margin-bottom: 0px;
 }
