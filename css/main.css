@@ -35,7 +35,8 @@ body{
     
 }
 .ele{
-    padding: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-decoration: none;
     margin-right: 10px;
     /*background-color: #8696a7;*/
