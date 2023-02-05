@@ -25,6 +25,7 @@ body{
 }
 .navigation{
     width: 98%;
+    height: 20pt;
     margin-top: -3px;
     margin-bottom: 1px;
     padding: 5px;
@@ -32,7 +33,7 @@ body{
     text-align: center;
     /*background-color: #8696a7;*/
     background-color: #1D3B45;
-    
+    line-height: 8mm
 }
 .ele{
     padding-top: 5px;
@@ -44,11 +45,10 @@ body{
     /*color: rgb(248, 248, 255);*/
     color: rgb(238, 238, 238);
     font-family: Georgia, serif;
-    font-size:16px;}
-a:hover{
-    /*background-color: #6b7f94;*/
-    background-color: #1D3B45;
+    font-size:16px;
+    line-height: 20px;
 }
+
 .container table{
     width: 99%;
     /*background-color: #e0e5df;*/
@@ -79,21 +79,24 @@ a:hover{
     color: rgb(150, 84, 84);
     margin-left: 30px;
     margin-top: 20px;
-
-    text-align: left;    font-family: Georgia, serif;
-    font-size:14px;    line-height:140%}
+    text-align: left;    
+    font-family: Georgia, serif;
+    font-size:14px;    
+    line-height:140%
+}
 #aboutme{
     margin-top: 10px;
     padding-top: 5px;
 }
+
 .hands h4{
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 0px;
-    margin-bottom: 2px;    font-family: Georgia, serif;
+    margin-bottom: 2px;    
+    font-family: Georgia, serif;
     font-size:16px;
     line-height:140%
-
 }
 .hands p{
     margin-left: 40px;
@@ -109,6 +112,7 @@ a:hover{
 #lasthand{
     margin-bottom: 4px;
 }
+
 #lasthand h4{
     margin-left: 40px;
     margin-right: 40px;
